@@ -1,11 +1,18 @@
 body{
     background-color: #E3D4B9;
+    
 }
+
+.login-title{
+    text-align: center;
+    margin-bottom: 0%;
+}
+
 .container-login-signup {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .subconatianer{
@@ -41,13 +48,14 @@ body{
 }
 
 .login-signup-button {
-    width: 175px;
+    width: 177px;
     background-color: #8B5B29;
     padding: 6px 14px;
     border-radius: 10px;
     cursor: pointer;
     border: #b9b6b6;
     border: 1px solid rgb(181, 183, 184);
+    text-decoration-color: white;
 }
 
 .login-signup-button:hover {
