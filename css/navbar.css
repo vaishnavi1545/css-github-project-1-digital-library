@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E3D4B9;
+}
+
+.navbar-main-container {
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 30px;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.menu-item{
+    text-decoration: none;
+    color: white;
+}
+.auth-links-container {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E3D4B9;
+}
+
+
+.main-image {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-heading {
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-subheading {
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive
+}
+
+.get-started-button {
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: #483D2D;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.get-started-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.learn-more-button {
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: #483D2D;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.learn-more-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container{
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #483D2D;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .main-content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-heading {
+        font-size: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-image {
+        height: 300px;
+    }
+
+    .project-subheading {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main-buttons-container {
+        flex-direction: column;
+    }
+}
