@@ -1,47 +1,69 @@
-body{
-    background-color:#FFFCF2 ;
+body {
+    background-color: #FFFCF2;
 }
-.main-container{
-    display:flex;
-    flex-direction:row;
-   justify-content:space-around;
-   flex-wrap: wrap;
-}
-.sub-container-1{
-    background-color:#ebe8e2;
-    height: 450px;
-    width: 400px;
-   margin-top: 40px;
-    border-radius: 10px;
-    padding-top: 40px;
-  }
-  .title{
-   margin-left:140px ;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  .text-name{
- margin-left:25px ;
- margin-bottom: 4px;
- font-size: 13px;
-  }
-  .sample-page{
-    background-color: blue;
-    height: 350px;
 
-  }
-  .name-text{
-margin-left: 100px;
-  }
-  .last-name{
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sub-container-1 {
+    background-color: #ebe8e2;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.title {
+    margin-left: 140px;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-name {
+    margin-left: 25px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.sample-page {
+
+    height: 300px;
+
+}
+
+.name-text {
+    margin-left: 100px;
+}
+
+.last-name {
     height: 25px;
-  }
-  .email-text{
- margin-left:25px ;
- margin-bottom: 4px;
- font-size: 13px;
-  }
-  .email-text1{
-    margin-left:25px ;
+}
+
+.email-text {
+    margin-left: 25px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.email-text1 {
+    margin-left: 25px;
     width: 343px;
     height: 25px;
-  }
+}
+
+.button {
+    margin-top: 37px;
+
+    width: 347px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #776549;
+    color: whitesmoke;
+    border: none;
+
+}
