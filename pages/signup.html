@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>signup</title>
+  <title>login</title>
   <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylsheet" href="../css/navbar.css">
 </head>
+
 <body>
-  <div class="container-login-signup">
-    <div class="form">
-        <h3 class="signup-text">Sign Up Here</h3>
-        <hr />
-        <form>
-            <label for="inputFullName">Enter Full Name :</label>
-            <input type="text" id="inputFullName" placeholder="Enter Name" required />
-            <br /><br />
+  <div>
+    <div class="navbar-main-container">
 
-            <label for="inputEmail">Enter Email:</label>
-            <input type="text" id="inputEmail" placeholder="Enter Email" required />
-            <br /><br />
+      <div class="logo-container">
+        <img src="../images/logo.jpg" alt="Digital library logo" height="50px" class="logo" />
+        <b class="project-name">Digital library</b>
+      </div>
 
-            <label for="inputPasswor">Enter Password :</label>
-            <input type="number" id="inputPassword" placeholder="Password" />
-            <br /> <br />
+      <div class="nav-links-container">
+        <a href="../index.html" class="menu-item">Home</a>
+        <a href="../pages/about.html" class="menu-item">About</a>
+        <a href="../pages/contact.html" class="menu-item">Contact</a>
+        <a href="../pages/book-details.html" class="menu-item">book-details</a>
+      </div>
 
-            <span class="login-signup-button"><b>Sign Up</b></span>
-        </form>
-        <p>Already have an account? <a href="./login.html">Login</a></p>
+      <div class="auth-links-container">
+        <a href="../pages/login.html" class="menu-item">Login</a>
+        <a href="../pages/signup.html" class="menu-item">Signup</a>
+      </div>
     </div>
-</div>
+
+    <div class="container-login-signup">
+      <div class="subcontainer">
+        <h3><i>Welcome to Digital Library</i></h3><hr/>
+        <label>Enter Name :</label><br>
+        <input type="text" placeholder="Enter Name"><br>
+
+        <label>Enter Email :</label><br>
+        <input type="text" placeholder="Enter Email"><br>
+
+        <label>Enter Password :</label><br>
+        <input type="password" placeholder="Password"><br>
+
+        <input type="checkbox" id="rememberMe">
+        <label for="rememberMe">Remember me</label><br><br>
+
+        <button class="login-button">signup</button>
+
+        <p>Already have account? <a href="./login.html">Login</a></p>
+      </div>
+
+      <div class="image-box">
+        <img src="../images/Sign-up.gif" alt="Image" width="400px" class="img-1">
+      </div>
+
+    </div>
+  </div>
 </body>
+
 </html>

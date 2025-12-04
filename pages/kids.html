@@ -4,55 +4,61 @@
 <head>
   <title>kids page</title>
   <link rel="stylesheet" href="./../css/kids.css" />
-
+  <link rel="stylesheet" href="../css/navbar.css" />
 </head>
 
 <body>
-  <header>
-    <img src="./../images/logo.jpg" alt="logo" height="50px">
-    <h2>Digital Library</h2>
-    <h3>Kids Books</h3>
-    <div>
-      <a href="./../index.html">Home</a>
-      <a href="./about.html">About</a>
-      <a href="./book-details.html">books-details</a>
-      <a href="./login.html">login</a>
-      <a href="./contact.html">contact</a>
-      <a href="./signup.html">signup</a>
-      <a href="./card.html">cards</a>
+  <div class="navbar-main-container">
+
+    <div class="logo-container">
+      <img src="../images/logo.jpg" alt="Digital library logo" height="50px" class="logo" />
+      <b class="project-name">Digital library</b>
     </div>
-  </header>
-  <section class="book.container">
+
+    <div class="nav-links-container">
+      <a href="../index.html" class="menu-item">Home</a>
+      <a href="../pages/about.html" class="menu-item">About</a>
+      <a href="../pages/contact.html" class="menu-item">Contact</a>
+      <a href="../pages/book-details.html" class="menu-item">book-details</a>
+    </div>
+
+    <div class="auth-links-container">
+      <a href="../pages/login.html" class="menu-item">Login</a>
+      <a href="../pages/signup.html" class="menu-item">Signup</a>
+
+    </div>
+  </div>
+  <section class="book-container">
     <div class="book-card">
       <img src="./../images/kids-book-1.jpg" alt="Peppa's Pig" height="300px" width="200px">
       <h3>Peppa's Pig</h3>
       <p> By Neville Astley and Mark Baker</p>
-      <p class="price">340</p>
-      <button>Add to cart</button>
+      <p class="price"><u><b>$340</b></u></p>
+      <button><a href="../pages/buy-books-1.html">Add to cart</a></button>
     </div>
 
     <div class="book-card">
       <img src="./../images/kids-book-2.jpg" alt="Stable in Bethlehem" height="300px">
       <h3>Stable in Bethlehem</h3>
       <p> By Joan Didion</p>
-      <p class="price">240</p>
-      <button>Add to cart</button>
+      <p class="price"><u><b>$240</b></u></p>
+      <button><a href="../pages/buy-books-2.html">Add to cart</a></button>
     </div>
 
     <div class="book-card">
       <img src="./../images/kids-book-3.jpg" alt="Toddle Waddle" height="300px">
       <h3>Toddle Waddle</h3>
       <p> By Julia Donaldson</p>
-      <p class="price">120</p>
-      <button>Add to cart</button>
+      <p class="price"><u><b>$120</b></u></p>
+      <button><a href="../pages/buy-books-3.html">Add to cart</a></button>
     </div>
 
     <div class="book-card">
       <img src="./../images/kids-book-4.jpg" alt="Animal world" height="300px">
       <h3>Animal World</h3>
       <p> By Frederick William</p>
-      <p class="price">360</p>
-      <button>Add to cart</button>
+      <p class="price"><u><b>$340</b></u></p>
+      <button><a href="../pages/buy-books-4.html">Add to cart</a></button>
     </div>
 
   </section>
