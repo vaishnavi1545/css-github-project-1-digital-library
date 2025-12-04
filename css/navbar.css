@@ -10,7 +10,9 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;   
+    position: sticky;
+    top:0%
+    
 }
 
 .logo-container {
@@ -42,4 +44,33 @@ body {
     display: flex;
     gap: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .logo-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-links-container,
+    .auth-links-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .project-name {
+        font-size: 18px;
+    }
+
+    .menu-item {
+        font-size: 16px;
+    }
 }

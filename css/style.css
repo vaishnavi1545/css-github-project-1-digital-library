@@ -45,6 +45,7 @@ body {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .get-started-button:hover {
@@ -59,6 +60,7 @@ body {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .learn-more-button:hover {

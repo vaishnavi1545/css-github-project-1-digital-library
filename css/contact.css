@@ -1,0 +1,194 @@
+body {
+    background-color: #FFFCF2;
+}
+
+.main-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.sub-container-1 {
+    background-color: #ebe8e2;
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding-top: 40px;
+
+  
+    
+  
+}
+
+.title {
+    margin-left: 140px;
+    margin-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-name {
+    margin-left: 25px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.sample-page {
+
+    height: 300px;
+
+}
+
+.name-text {
+    margin-left: 100px;
+}
+
+.last-name {
+    height: 25px;
+}
+
+.email-text {
+    margin-left: 25px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.email-text1 {
+    margin-left: 25px;
+    width: 343px;
+    height: 25px;
+}
+
+.button {
+    margin-top: 37px;
+    width: 347px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #776549;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    box-shadow:2px 2px 2px gray ;
+}
+.button:hover{
+    box-shadow:2px 2px 5px 1px gray;
+    background-color:#584931 ;
+}
+
+.sub-container-2 {
+   
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding-top: 20px;
+ 
+}
+.location{
+    width: 17px;
+    align-items: center;
+    vertical-align:middle;
+ 
+
+}
+.sample-page-2{
+
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+   
+}
+.location-logo{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.info-task{
+    margin-bottom: 10px;
+    position: relative;
+}
+.button-style{
+    border-radius:15px ;
+    border:none ;
+    background-color:#ebe8e2;
+    margin-right: 10px;
+    padding: 10px;
+}
+.learn-more-button{
+    border-radius: 10px;
+    border:none ;
+    background-color:#ebe8e2;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .main-container-1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sub-container-1,
+    .sub-container-2 {
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+        border-radius: 10px;
+        padding-top: 25px;
+    }
+
+    .title {
+        margin-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .text-name,
+    .email-text {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .email-text1,
+    .last-name,
+    .button {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .name-text {
+        margin-left: 10px;
+    }
+
+   
+    .images {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+        width: 38px;
+        height: 32px;
+        top: -15px;
+    }
+
+    .sample-page,
+    .sample-page-2 {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .learn-more-button {
+        margin-left: 10px;
+    }
+}
+
+
