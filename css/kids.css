@@ -167,13 +167,11 @@ button {
 
 .button :hover {
     background-color: #e3b785;
-<<<<<<< HEAD
+
 }
 @media screen and (max-width:768px) {
     .main-content-container{
         flex-direction: column;
         align-items: center;
     }   
-=======
->>>>>>> 725f2ed2683fb5a3cf43382637a211f042519045
 }

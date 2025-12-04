@@ -1,9 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cards Page</title>
+    <link rel="stylesheet" href="../css/card.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
+
 <body>
-    Cards
+    <div>
+        <div class="navbar-main-container">
+
+            <div class="logo-container">
+                <img src="../images/logo.jpg" alt="Digital library logo" height="50px" class="logo" />
+                <b class="project-name">Digital library</b>
+            </div>
+
+            <div class="nav-links-container">
+                <a href="../index.html" class="menu-item">Home</a>
+                <a href=".././pages/about.html" class="menu-item">About</a>
+                <a href=".././pages/contact.html" class="menu-item">Contact</a>
+                <a href=".././pages/book-details.html" class="menu-item">book-details</a>
+            </div>
+
+            <div class="auth-links-container">
+                <a href=".././pages/signup.html" class="menu-item">Signup</a>
+                <a href=".././pages/login.html" class="menu-item">Login</a>
+
+            </div>
+        </div>
+    <div>
+        <header>
+            <h1>Book Categories</h1>
+            <span class="head-info">Select a category to explore more</span>
+        </header>
+        <div class="container">
+            <div class="card">
+                <img src="../images/kids.jpeg" width="400px" class="img-main">
+                <div class="space">
+                    <span class="font">Kids Books</span>
+                    <br>
+
+                    <p class="project-discription">designed to develop creativity, vocabulary, and learning skills in
+                        children through engaging characters, simple adventures, and illustrations.”</p>
+                </div>
+                <div>
+                    <a class="view-button" href="../pages/kids.html">View More</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="../images/fiction.jpg" width="400px" class="img-main">
+                    <div class="space">
+                        <span class="font">Fiction Books</span>
+                        <br>
+
+                        <p class="project-discription">"Explore thrilling adventures, emotional journeys, mysterious worlds, and imaginative storytelling that transport readers into unforgettable experiences filled with drama, suspense, romance, and creativity.”</p>
+                    </div>
+                    <div>
+                        <a class="view-button" href="../pages/fiction.html">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img src="../images/nonfiction.jpg" width="400px" class="img-main">
+                    <div class="space">
+                        <span class="font">Non-Fiction Books</span>
+                        <br>
+
+                        <p class="project-discription">“Discover knowledge-rich books offering real facts, biographies,
+                            science insights, self-improvement lessons, history, motivation, and practical wisdom to
+                            help readers understand the real world better.”</p>
+                    </div>
+                    <div>
+                        <a class="view-button" href="../pages/non-fiction.html">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
