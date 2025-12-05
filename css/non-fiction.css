@@ -32,7 +32,7 @@ body
 }
 .price{
     font-size: 13px;
-    margin:8px 8 0;
+    margin:8px  0;
 }
 button {
     background-color: #4b3D2D; 
@@ -46,10 +46,123 @@ button {
 button:hover{
     background-color:#e3b785;
 }
-footer{
-    margin:0;
-    background-color: #E3D4B9;
+
+.footer {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 40px 0 10px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-box h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color:#E3D4B9;
+}
+
+.footer-box p,
+.footer-box a,
+.footer-box li {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 8px;
+}
+
+.footer-box a {
+    color:#4b3D2D;
+    text-decoration: none;
+}
+
+.footer-box a:hover {
+    color:#e3b785;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    margin: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+.newsletter {
     text-align: center;
-    padding:15px 15px;
-    margin-top:20px;
+    margin-top: 25px;
+}
+
+.newsletter h3 {
+    color:white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.newsletter-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.newsletter-box input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    outline: none;
+}
+
+.newsletter-box button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+}
+
+.newsletter-box button:hover {
+    background: #e3b785;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid;
+    font-size: 14px;
+    color:#E3D4B9;
+}
+
+@media (max-width: 768px) {
+    .footer-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-container {
+        text-align: center;
+}
 }
