@@ -3,9 +3,9 @@
 ## Welcome to Digital Library!
  In our Digital Library project, we created an online system where students and users can easily search for the books, notes, research papers, and study materials they need. First, we collected digital books from different subjects, organized them into proper categories, and then uploaded them to the library system. We designed a user-friendly interface so that anyone can find and read books in just a few simple steps. We also added features like a search bar and filter options to help users quickly find material based on their topics. Overall, the aim of our project was to build a modern, convenient, and easily accessible library where knowledge is available with just one click.
 
- *In this project, we have added the books listed below:*
+ **In this project, we have added the books listed below:**
  
- 1.Fiction Book(story)
+1.Fiction Book(story)
  - Harry Potter 
  - The white tiger 
  - The god of small things 
