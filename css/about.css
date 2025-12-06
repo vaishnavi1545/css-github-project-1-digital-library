@@ -4,16 +4,42 @@ body {
     background-color: #E3D4B9;
 }
 
+.about {
+    font-size: 22px;
+    padding: 20px;
+    font-weight: 550;
+}
+
+.about-info {
+    padding: 20px;
+    display: block;
+    flex-wrap: wrap;
+}
+
+.head-1 {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.about-para {
+    font-size: 18px;
+    line-height: 0.6cm;
+    text-align: justify;
+}
+
 .box-1 {
-    width: 300px;
-    height: 350px;
-    margin: 5px;
+    width: 290px;
+    height: 340px;
+    margin: 20px;
     border: 1px solid rgb(242, 227, 227);
-    background-color: white;
+    background-color: cornsilk;
+    box-shadow: 1px 1px 5px 1px rgb(222, 222, 225);
+    border-radius: 15px;
 }
 
 .box-1:hover {
-    border: 1px solid rgb(215, 155, 194);
+    border: 3px solid rgb(189, 177, 177);
+    transition: 3s;
 }
 
 .card {
@@ -26,22 +52,26 @@ body {
     height: 50px;
     margin: 0 auto;
     display: block;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 .box-head {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
 }
 
 .info {
     text-align: center;
     font-family: sans-serif;
-    padding: 20px;
-    padding-bottom: 15px;
-
+    padding: 25px;
+    padding-bottom: 1px;
+    line-height: 0.6cm;
+    text-align: justify;
+    padding-top: 10px;
 }
 
 .link {
@@ -49,4 +79,39 @@ body {
     padding: 20px;
     color: yellowgreen;
     cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .head-1 {
+        justify-content: center;
+        font-size: 19px;
+    }
+
+    .about-para {
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .box-1 {
+        width: 290px;
+        height: 340px;
+        background-color: cornsilk;
+        box-shadow: 10px 10px 5px 1px rgb(242, 242, 246);
+        border: 0;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
 }

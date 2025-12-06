@@ -55,6 +55,22 @@ body
     background-color: #e3b785;
 }
 
+.kids-back{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 100%;
+    }
+
+.back-image{
+    border: 1px;
+    border-radius: 100%;
+}  
+
+.back-image:hover{
+    transform: translateY(-4px);
+}
+
 footer{
     margin:0;
     text-align: center;
