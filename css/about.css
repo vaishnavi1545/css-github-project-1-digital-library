@@ -5,15 +5,17 @@ body {
 }
 
 .about {
-    font-size: 22px;
-    padding: 20px;
+    font-size: 28px;
     font-weight: 550;
+    text-align: center;
 }
 
 .about-info {
     padding: 20px;
     display: block;
     flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .head-1 {
@@ -84,6 +86,9 @@ body {
 @media screen and (max-width: 650px) {
     .card {
         flex-direction: column;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .about {
@@ -108,10 +113,74 @@ body {
         border: 0;
     }
 
-    .card {
+    .team {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        flex-direction: column;
     }
 
+}
+
+.all-team {
+    font-size: 28px;
+    font-weight: 550;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.sub-team {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    border: 1px solid rgb(242, 227, 227);
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.sub-team:hover {
+    border-color: skyblue;
+}
+
+
+.team-imgs {
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    left: 50px;
+    top: -50px;
+    padding: 10px;
+}
+
+
+.name-imgs {
+    font-size: 18px;
+    font-weight: 550;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+
+.social-icon {
+    height: 20px;
+    padding-top: 10px;
 }
