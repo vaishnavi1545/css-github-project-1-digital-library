@@ -92,6 +92,116 @@ body {
     top: 0;
 }
 
+/* ----------------------------------------
+   📌 FOR TABLETS & SMALL LAPTOPS (max 992px)
+-----------------------------------------*/
+@media (max-width: 992px) {
+
+    .navbar-main-container {
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+    .nav-links-container,
+    .auth-links-container {
+      margin-top: 10px;
+    }
+  
+    .container-login-signup {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .subcontainer {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .image-box img {
+      width: 80%;
+    }
+  
+    .footer-container {
+      flex-wrap: wrap;
+    }
+  
+    .footer-container > div {
+      width: 48%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  /* ----------------------------------------
+     📌 FOR MOBILE DEVICES (max 768px)
+  -----------------------------------------*/
+  @media (max-width: 768px) {
+  
+    .navbar-main-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .nav-links-container,
+    .auth-links-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .container-login-signup {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .subcontainer {
+      width: 100%;
+    }
+  
+    .image-box img {
+      width: 100%;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-container > div {
+      width: 100%;
+    }
+  }
+  
+  
+  /* ----------------------------------------
+     📌 FOR VERY SMALL MOBILES (max 480px)
+  -----------------------------------------*/
+  @media (max-width: 480px) {
+  
+    .project-name {
+      font-size: 16px;
+    }
+  
+    .logo {
+      height: 40px;
+    }
+  
+    input,
+    button {
+      width: 100%;
+    }
+  
+    .image-box img {
+      width: 95%;
+    }
+  
+    .footer-section-1 span {
+      font-size: 14px;
+    }
+  }
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -124,72 +234,7 @@ body {
     gap: 20px;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .navbar-main-container {
-        flex-direction: column;
-        justify-content: center;
-        gap: 15px;
-        padding: 10px 0;
-    }
-}
 
-@media (max-width: 768px) {
-
-    /* NAVBAR FIX */
-    .navbar-main-container {
-        display: block;
-        text-align: center;
-        padding: 15px;
-    }
-
-    .navbar-main-container ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* CONTACT FORM BOX FIX */
-    .contact-container {
-        width: 90%;
-        margin: auto;
-        flex-direction: column;
-        padding: 20px 10px;
-    }
-
-    .contact-left,
-    .contact-right {
-        width: 100%;
-        text-align: center;
-    }
-
-    /* FORMS ALIGNMENT FIX */
-    input,
-    textarea {
-        width: 100%;
-    }
-
-    /* SIGNUP PAGE IMAGE + FORM FIX */
-    .signup-main {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .signup-img {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .signup-form {
-        width: 100%;
-        padding: 10px;
-    }
-
-    /* BUTTONS CENTER */
-    button {
-        width: 100%;
-    }
-}
 .footer-container {
     display: flex;
     justify-content: space-around;
