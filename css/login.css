@@ -1,14 +1,14 @@
 body {
-    margin: 0;
+    margin-top: 80px;
     padding: 0;
-   
+    background-color: #FFFCF2;
 }
 
 
 .container-login-signup {
     width: 750px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
