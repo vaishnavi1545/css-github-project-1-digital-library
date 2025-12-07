@@ -129,6 +129,12 @@ button {
     background-color: #e3b785;
 
 }
+
+.add-to-cart-button a{
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width:768px) {
     .main-content-container{
         flex-direction: column;
