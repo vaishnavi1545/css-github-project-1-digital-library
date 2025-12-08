@@ -4,6 +4,13 @@ body {
     background-color: #E3D4B9;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
 .about {
     font-size: 28px;
     font-weight: 550;
@@ -84,6 +91,13 @@ body {
 }
 
 @media screen and (max-width: 650px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    }
+
     .card {
         flex-direction: column;
         justify-content: space-evenly;
@@ -114,17 +128,16 @@ body {
     }
 
     .all-team {
-    font-size: 28px;
-    font-weight: 550;
-    text-align: center;
-    padding-bottom: 30px;
-}
+        font-size: 28px;
+        font-weight: 550;
+        text-align: center;
+        padding-bottom: 30px;
+    }
 
     .team {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        flex-direction: column;
     }
 
     .sub-team {
@@ -144,26 +157,26 @@ body {
     }
 
     .team-imgs {
-    height: 90px;
-    border-radius: 50%;
-    position: absolute;
-    align-items: center;
-    left: 50px;
-    top: -50px;
-    padding: 0px;
-    width: 100px;
-    
-}
+        height: 90px;
+        border-radius: 50%;
+        position: absolute;
+        align-items: center;
+        left: 50px;
+        top: -50px;
+        padding: 0px;
+        width: 100px;
+
+    }
 
 
-.name-imgs {
-    font-size: 18px;
-    font-weight: 550;
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
-    padding-top: 10px;
-}
+    .name-imgs {
+        font-size: 18px;
+        font-weight: 550;
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
 
 }
 
@@ -186,16 +199,16 @@ body {
     width: 200px;
     height: 150px;
     margin: 0 auto;
-    border: 1px solid rgb(242, 227, 227);
     background-color: white;
     border-radius: 15px;
     margin-top: 40px;
     margin-bottom: 40px;
-    
-    
+    border: 2px solid rgb(238, 235, 235);
+
 }
 
-.sub-team:hover {
+.team-member:hover {
+    border-width: 2px;
     border-color: skyblue;
 }
 
@@ -210,6 +223,12 @@ body {
     padding: 0px;
     width: 100px;
     display: block;
+    border: 2px solid rgb(238, 235, 235);
+}
+
+.team-imgs:hover {
+    border-width: 2px;
+    border-color: skyblue;
 }
 
 
@@ -233,6 +252,4 @@ body {
 .icon {
     height: 20px;
     padding-top: 10px;
-    
-
 }
