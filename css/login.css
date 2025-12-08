@@ -6,16 +6,16 @@ body {
 
 
 .container-login-signup {
-    width: 750px;
-    margin: auto;
-    margin-top: 40px;
+    width: 100%;
+    max-width: 750px;           
+    min-height: 400px;          
+    margin: 30px auto 0 auto;   
+    background-color: #d3ca96;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    background: #C2B280;
-    border-radius: 15px;
-    border: 1px solid burlywood;
+    align-items: center;
     gap: 0px;
+    border-radius: 15PX;
 }
 
 .container-login-signup:hover {
@@ -124,198 +124,47 @@ body {
     gap: 20px;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    .navbar-main-container {
-        flex-direction: column;
-        justify-content: center;
-        gap: 15px;
-        padding: 10px 0;
+
+@media (max-width: 992px) {
+    .container-login-signup {
+        gap: 30px;
     }
 }
 
-@media (max-width: 768px) {
-
-    /* NAVBAR FIX */
-    .navbar-main-container {
-        display: block;
-        text-align: center;
-        padding: 15px;
-    }
-
-    .navbar-main-container ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    /* CONTACT FORM BOX FIX */
-    .contact-container {
-        width: 90%;
-        margin: auto;
-        flex-direction: column;
-        padding: 20px 10px;
-    }
-
-    .contact-left,
-    .contact-right {
-        width: 100%;
-        text-align: center;
-    }
-
-    /* FORMS ALIGNMENT FIX */
-    input,
-    textarea {
-        width: 100%;
-    }
-
-    /* SIGNUP PAGE IMAGE + FORM FIX */
-    .signup-main {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .signup-img {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .signup-form {
-        width: 100%;
-        padding: 10px;
-    }
-
-    /* BUTTONS CENTER */
-    button {
-        width: 100%;
-    }
-}
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-   background-color: #4B3D2D;
-    color: white;
-    margin-top: 50px;
-}
-.main-logo{
-    border-radius: 50%;
-    width: 60px;
-}
-
-.footer-section-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width:900px;
-}
-
-.footer-section-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 700px; 
-    margin-left:20px ;
-}
-
-
-.footer-section-3 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 700px;
-    margin-bottom: 33px;
-    margin-right: 10px;
-}
-
-.footer-section-4 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 700px;
-   
-}
-
-.social-icon-container {
-    display: flex;
-    gap: 15px;
-    margin-top: 10px;
-  
-}
-
-.social-icon {
-    height: 35px;
-    width: 35px;
-    cursor: pointer;
-    background-color: white;
-    border-radius: 50%;
-    padding: 0px;
-    
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    margin-top: 5px;
-   text-decoration: none;
-}
-
-.menu-subitem {
-    text-decoration: none;
-    color: white;
-    vertical-align: text-top;
-   margin-left:none ;
-}
-.location-text{
-    margin-bottom: 47px;
-}
-
-.calling-logo{
-    width: 22px;
-    vertical-align: middle;
-    
-}
-.pointer-provide{
-    cursor: pointer;
-}
-.contact-division{
-    text-decoration: none;
-     color: white;
-     margin-left: 5px;
-}
 
 @media (max-width: 768px) {
-    .navbar-main-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .main-subheading {
-        flex-direction: column;
+    .container-login-signup {
+        flex-direction: column;      
         align-items: center;
+        padding: 20px;
     }
 
-    .card {
+    .subcontainer {
         width: 90%;
+        max-width: 400px;
+        margin: auto;
     }
 
-    .footer-container {
-        flex-direction: column;
-        gap: 20px;
+    .image-box img {
+        width: 80%;
+        max-width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-login-signup {
+        padding: 10px;
+        gap: 15px;
     }
 
-    .footer-section-1,
-    .footer-section-2,
-    .footer-section-3,
-    .footer-section-4 {
+    .subcontainer {
         width: 100%;
+    }
+
+    .image-box img {
+        width: 70%;
+        max-width: 250px;
     }
 }
